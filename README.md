@@ -124,9 +124,57 @@ Advanced SQL queries using Common Table Expressions (CTEs) and window functions 
     ```
 -----
 ## Visuals (Python)
-*Figure 1: Violation Hotspots Across NYC.* This interactive map visualizes the concentration of issued violations, clearly identifying the key corridors and bus stops that are epicenters of enforcement activity and require immediate attention.
-*Figure 2: Peak Violation Hours (Weekday vs. Weekend).* This time-series analysis reveals the city's "violation rhythm," showing distinct peaks during weekday commutes (8-10 AM, 4-6 PM) and a different, broader pattern on weekends. This provides a clear guide for when to schedule enforcement patrols.
-*Figure 3: Dominant Violation Profile by Bus Route.* This chart provides the core strategic insight, color-coding routes by their primary enforcement challenge. It makes it easy to see that routes in one area might struggle with 'Bus Lane Violations,' while others face 'Parking at Bus Stop' issues, proving a one-size-fits-all strategy is ineffective.
+
+<div align='center'>
+
+<img width="841" height="684" alt="viz-3" src="https://github.com/user-attachments/assets/537373d7-0aa7-4f80-af18-ba0dd2327e0d" />
+
+Figure 1: Proportion of Repeat vs. One-Time Offenders (12-Month Period): This chart establishes the scale of the recidivism problem, showing that over one-third (37.6%) of all vehicles receiving a ticket will receive at least one more within a year. This confirms that a substantial portion of violations are caused by a core group of chronic offenders, making them a high-value target for focused enforcement strategies.
+
+</div>
+
+
+
+<div align='center'>
+
+<img width="1089" height="525" alt="viz-4" src="https://github.com/user-attachments/assets/8c151552-c689-458c-b3d1-c2c48c21fd81" />
+
+Figure 2: Dominant Violation Type for Each Bus Route: This chart provides the core strategic insight for route-level enforcement by color-coding the top bus routes by their primary enforcement challenge. It clearly demonstrates that different routes face different problems—for example, the M15+ is overwhelmingly dominated by bus lane violations, while the BX19's main issue is vehicles stopped at bus stops. This proves the need for route-specific, rather than city-wide, intervention strategies.
+
+</div>
+
+
+
+<div align='center'>
+
+<img width="886" height="703" alt="viz-5" src="https://github.com/user-attachments/assets/20fac49d-3028-42a5-ad0d-25ce12e682ba" />
+
+Figure 3: Peak Violation Hours (Weekday vs. Weekend): This time-series analysis reveals the city's "violation rhythm." The weekday trend (top) shows two sharp peaks corresponding to the morning (8-9 AM) and evening (3-5 PM) commutes, identifying clear windows for targeted enforcement. The weekend trend (bottom) displays a single, broader peak in the afternoon, requiring a different staffing and deployment strategy.
+
+</div>
+
+
+
+<div align='center'>
+
+<img width="886" height="591" alt="viz-6" src="https://github.com/user-attachments/assets/de6a2c8c-2ea9-41c5-8547-d18387cc6e37" />
+
+Figure 4: Average Time to Next Violation (Recidivism Rate): This chart quantifies how quickly repeat offenders receive another ticket, broken down by the type of their subsequent violation. It reveals that vehicles ticketed for a 'MOBILE BUS STOP' violation re-offend the fastest, on average. This insight into offender behavior can be used to tailor deterrent strategies and penalty structures for different types of infractions.
+
+</div>
+
+
+
+<div align='center'>
+
+<img width="832" height="692" alt="viz-7" src="https://github.com/user-attachments/assets/726c2ffd-c760-400e-8b41-1e7b7842b999" />
+
+Figure 5: Top 10 Bus Routes by Reported Technical Issues: This chart moves beyond driver behavior to identify routes with potential equipment or system reliability problems. The M15+ route reports a disproportionately high number of technical issues compared to all others, suggesting an urgent need for a maintenance audit on its specific enforcement cameras or bus-mounted equipment to ensure data integrity and program effectiveness.
+
+</div>
+
+
+
 -----
 ## Insights & Recommendations
 ### For the Director of NYC Transit
