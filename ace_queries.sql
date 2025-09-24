@@ -1,11 +1,21 @@
 SELECT * FROM enforcement_violations;
 
 --Q1: What is The violation hotstop by station?
-SELECT vehicle_ID, stop_name , COUNT(violation_ID) AS no_of_violations, MAX(violation_type) AS most_common_violation
-FROM enforcement_violations
-GROUP BY stop_name
---HAVING COUNT(violation_ID) > 50
-ORDER BY no_of_violations DESC;
+SELECT
+    stop_name,
+    bus_stop_latitude,
+    bus_stop_longitude,
+    COUNT(violation_ID) AS total_violations
+FROM
+    enforcement_violations
+WHERE
+    stop_name IS NOT NULL
+    AND bus_stop_latitude IS NOT NULL
+    AND bus_stop_longitude IS NOT NULL
+GROUP BY
+    stop_name, bus_stop_latitude, bus_stop_longitude
+ORDER BY
+    total_violations DESC;
 
 -- Q2:Ro is working on this one
 -- How does the distribution and type of violations (Bus Lane vs. Bus Stop vs. Double Parking) differ across the five boroughs? 
