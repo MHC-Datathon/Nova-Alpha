@@ -1,7 +1,8 @@
 # Datathon 2025: Beyond the Bus
 <div align='center'>
 
-![](https://logos-world.net/wp-content/uploads/2024/01/MTA-Metropolitan-Transportation-Authority-Emblem.png)
+[![Video Submission](https://logos-world.net/wp-content/uploads/2024/01/MTA-Metropolitan-Transportation-Authority-Emblem.png)](https://www.youtube.com/watch?v=UBy34hkhmKg)
+
  ### A Spatial and Socio-Economic Analysis of MTA Bus Violations
 
 </div>
@@ -18,7 +19,7 @@
 - [Insights & Recommendations](#Insights-and-Recommendations)
 - [Ethics & Bias](#Ethics-and-Bias)
 - [Repository Navigation](#Repo-Navigation)
-
+- [Project Video Submission](#Video-Submission)
 <br>
 
 ## Project Overview
@@ -295,5 +296,19 @@ Overall, this project being analyzed in an ethical lens was very important to us
   * **/visualizations:** Contains folders for the visualization aspect of the project.
     *  **/charts:** The final PNG image files for the visuals.
     *  **/code:** The notebook containing code for producing visuals.
+
+***
+
+## Video Submission
+
+<div align='center'>
+
+[Datathon 2025: Nova Alpha Project Submission Video on YouTube](https://www.youtube.com/watch?v=UBy34hkhmKg)
+
+<br>
+
+[Back to Top](#README-Navigation)
+
+</div>
 
 
