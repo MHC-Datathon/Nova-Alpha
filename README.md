@@ -14,7 +14,7 @@
 - [Datasets & Schema](#Data-&-Schema)
 - [Exploratory Data Analysis](#EDA)
 - [Data Cleaning & Feature Engineering](#Data-Cleaning-&-Feature-Engineering)
-- [Visuals](#Visuals)
+- [Visualization](#Visuals)
 - [Insights & Recommendations](#Insights-&-Recommendations)
 - [Ethics & Bias](#Ethics-&-Bias)
 - [Repository Navigation](Repo-Navigation)
