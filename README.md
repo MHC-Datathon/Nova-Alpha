@@ -17,7 +17,7 @@
 - [Visualization](#Visuals)
 - [Insights & Recommendations](#Insights-and-Recommendations)
 - [Ethics & Bias](#Ethics-and-Bias)
-- [Repository Navigation](Repo-Navigation)
+- [Repository Navigation](#Repo-Navigation)
 
 <br>
 
