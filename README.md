@@ -295,8 +295,8 @@ Overall, this project being analyzed in an ethical lens was very important to us
 - [/cleaning](./cleaning) – Contains all files related to cleaning datasets.
 - [/statistics](./statistics) – Notebook detailing ANOVA and Tukey Post-Hoc Test.
 - [/visualizations](./visualizations) – Contains folders for the visualization aspect of the project.
-  - [/charts](./charts) – Final PNG image files for the visuals.
-  - [/code](./code) – Notebook containing code for producing visuals.
+  - [/charts](./visualizations/charts) – Final PNG image files for the visuals.
+  - [/code](./visualizations/code) – Notebook containing code for producing visuals.
 
 
 ***
