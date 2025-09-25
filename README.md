@@ -291,11 +291,13 @@ Overall, this project being analyzed in an ethical lens was very important to us
   * **No Severity Modeled:** The analysis treats all issued violations equally. It does not account for the duration or severity of the obstruction, which is a limitation when assessing the true impact on bus service.
 -----
 ## Repo Navigation
-  * **/cleaning:** Contains all files related to cleaning datasets.
-  * **/statistics:** Contains notebook detailing ANOVA and Tukey Post-Hoc Test.
-  * **/visualizations:** Contains folders for the visualization aspect of the project.
-    *  **/charts:** The final PNG image files for the visuals.
-    *  **/code:** The notebook containing code for producing visuals.
+
+- [/cleaning](./cleaning) – Contains all files related to cleaning datasets.
+- [/statistics](./statistics) – Notebook detailing ANOVA and Tukey Post-Hoc Test.
+- [/visualizations](./visualizations) – Contains folders for the visualization aspect of the project.
+  - [/charts](./charts) – Final PNG image files for the visuals.
+  - [/code](./code) – Notebook containing code for producing visuals.
+
 
 ***
 
@@ -307,7 +309,11 @@ Overall, this project being analyzed in an ethical lens was very important to us
 
 <br>
 
-[Back to Top](#README-Navigation)
+***
+
+<br>
+
+[Back to README Navigation](#README-Navigation)
 
 </div>
 
