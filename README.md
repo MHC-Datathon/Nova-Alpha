@@ -19,6 +19,8 @@
 - [Ethics & Bias](#Ethics-&-Bias)
 - [Repository Navigation](Repo-Navigation)
 
+<br>
+
 ## Project Overview
 
 <div align='center'>
