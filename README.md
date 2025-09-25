@@ -99,7 +99,7 @@ With this goal in mind, this lead our team to 3 overarching questions:
 
 ### The Main Dataset: [ACE System](https://data.ny.gov/Transportation/MTA-Bus-Automated-Camera-Enforcement-Violations-Be/kh8p-hcbm/about_data)
 
-This project utilizes a **single, comprehensive table** named `enforcement_violations`. This "flat file" structure contains detailed records for each enforcement event, whether it resulted in an issuance or not. This design allows for flexible aggregation and analysis across multiple dimensions like time, location, and vehicle behavior.
+This project's main dataset from the MTA is renamed to `enforcement_violations` in SQL. This "flat file" structure contains detailed records for each enforcement event, whether it resulted in an issuance or not. This design allows for flexible aggregation and analysis across multiple dimensions like time, location, and vehicle behavior.
   * The data is captured at the level of a single enforcement event, uniquely identified by `violation_ID`.
   * Analysis is conducted by grouping and filtering on key descriptive columns like `bus_route_ID`, `stop_name`, `violation_status`, and `violation_type`.
   * `bus_stop_latitude` and `bus_stop_longitude` are in point coordinate format. This is later used to assign bus stops to ZIP codes.
