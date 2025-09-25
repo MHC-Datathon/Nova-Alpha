@@ -6,6 +6,19 @@
 
 </div>
 
+## README Navigation
+
+- [Project Overview](#Project-Overview)
+  - [The Team](#The-Team)
+  - [Business Problem](#Business-Problem)
+- [Datasets & Schema](#Data-&-Schema)
+- [Exploratory Data Analysis](#EDA)
+- [Data Cleaning & Feature Engineering](#Data-Cleaning-&-Feature-Engineering)
+- [Visuals](#Visuals)
+- [Insights & Recommendations](#Insights-&-Recommendations)
+- [Ethics & Bias](#Ethics-&-Bias)
+- [Repository Navigation](Repo-Navigation)
+
 ## Project Overview
 
 <div align='center'>
@@ -129,13 +142,13 @@ This is the Modified ZIP Code Tabulation Areas (MODZCTA) by the Department of He
 
 
 -----
-## EDA (SQL)
+## EDA
 Exploratory Data Analysis was performed to establish a baseline understanding of the enforcement landscape. Three key areas were investigated:
 1.  **Violation Status Distribution:** We analyzed the different outcomes of enforcement events. While 'VIOLATION ISSUED' was the most common, a significant number were logged as 'EXEMPT' or 'TECHNICAL ISSUE/OTHER', highlighting the need to filter for issued violations to analyze true offender behavior.
 2.  **Geographic Hotspots:** We ran an initial aggregation of violations by bus stop. The analysis immediately revealed a highly skewed distribution: a small number of bus stops are responsible for a disproportionately large number of total violations, confirming the "hotspot" theory.
 3.  **Repeat Offender Prevalence:** We performed an initial calculation on repeat vehicles and found that a substantial percentage of vehicles receive more than one ticket. This confirmed that targeting repeat offenders is a viable and potentially high-impact strategy.
 -----
-## Data Cleaning & Feature Engineering (SQL)
+## Data Cleaning & Feature Engineering
 To prepare the data for deep analysis, critical cleaning and feature engineering steps were performed.
 ### Data Cleaning
 The primary data quality issue was the non-standard date format.
@@ -149,7 +162,7 @@ New features were created to unlock temporal and behavioral insights:
   * `days_since_last_violation`: Calculated the time gap between a vehicle's consecutive violations. Rationale: To quantify the "recidivism rate" and understand offender habits.
 -----
 
-## Visuals (Python)
+## Visuals
 
 <div align='center'>
 
@@ -203,6 +216,8 @@ Top 10 Bus Routes by Reported Technical Issues: This chart moves beyond driver b
 
 ### Figure 6
 Shows the poverty rate severity by ZIP codes across the 5 boroughs. Overlayed are the violations per bus stop across the 5 boroughs. Visually, we can see that there is a high violation density in the Bronx, where there are also higher levels of poverty. While this gives us a general direction of where to look, it was important to conduct a statistical test across all poverty levels per ZIP code in our ANOVA.
+
+</div>
 
 -----
 ## Insights & Recommendations
@@ -259,7 +274,10 @@ While this test may show there is statistical significance between the poverty r
 -----
 ## Ethics & Bias
 
+<div align='center'>
+
 Overall, this project being analyzed in an ethical lens was very important to us, as these are values strongly instilled into us at The Marcy Lab School. We all value giving underrepresented groups a larger voice, as they are often never given a chance to speak. Furthermore, we wanted to ensure our data analytical work was up to industry standard. Given this, several steps were taken:
+
 </div>
 
 <br>
@@ -271,8 +289,9 @@ Overall, this project being analyzed in an ethical lens was very important to us
 -----
 ## Repo Navigation
   * **/cleaning:** Contains all files related to cleaning datasets.
-  * **/notebooks:** Contains the Python notebook (`visual_analysis.ipynb`) used to generate the visuals.
-  * **/figures:** Contains the final PNG image files for the visuals.
-  * **/data:** Contains the source `enforcement.db` database file.
+  * **/statistics:** Contains notebook detailing ANOVA and Tukey Post-Hoc Test.
+  * **/visualizations:** Contains folders for the visualization aspect of the project.
+    *  **/charts:** The final PNG image files for the visuals.
+    *  **/code:** The notebook containing code for producing visuals.
 
 
