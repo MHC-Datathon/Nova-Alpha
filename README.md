@@ -11,12 +11,12 @@
 - [Project Overview](#Project-Overview)
   - [The Team](#The-Team)
   - [Business Problem](#Business-Problem)
-- [Datasets & Schema](#Data-&-Schema)
+- [Datasets & Schema](#Data-and-Schema)
 - [Exploratory Data Analysis](#EDA)
-- [Data Cleaning & Feature Engineering](#Data-Cleaning-&-Feature-Engineering)
+- [Data Cleaning & Feature Engineering](#Data-Cleaning-and-Feature-Engineering)
 - [Visualization](#Visuals)
-- [Insights & Recommendations](#Insights-&-Recommendations)
-- [Ethics & Bias](#Ethics-&-Bias)
+- [Insights & Recommendations](#Insights-and-Recommendations)
+- [Ethics & Bias](#Ethics-and-Bias)
 - [Repository Navigation](Repo-Navigation)
 
 <br>
@@ -95,7 +95,7 @@ With this goal in mind, this lead our team to 3 overarching questions:
 
 -----
 
-## Data & Schema
+## Data and Schema
 
 ### The Main Dataset: [ACE System](https://data.ny.gov/Transportation/MTA-Bus-Automated-Camera-Enforcement-Violations-Be/kh8p-hcbm/about_data)
 
@@ -150,7 +150,7 @@ Exploratory Data Analysis was performed to establish a baseline understanding of
 2.  **Geographic Hotspots:** We ran an initial aggregation of violations by bus stop. The analysis immediately revealed a highly skewed distribution: a small number of bus stops are responsible for a disproportionately large number of total violations, confirming the "hotspot" theory.
 3.  **Repeat Offender Prevalence:** We performed an initial calculation on repeat vehicles and found that a substantial percentage of vehicles receive more than one ticket. This confirmed that targeting repeat offenders is a viable and potentially high-impact strategy.
 -----
-## Data Cleaning & Feature Engineering
+## Data Cleaning and Feature Engineering
 To prepare the data for deep analysis, critical cleaning and feature engineering steps were performed.
 ### Data Cleaning
 The primary data quality issue was the non-standard date format.
@@ -222,7 +222,7 @@ Shows the poverty rate severity by ZIP codes across the 5 boroughs. Overlayed ar
 </div>
 
 -----
-## Insights & Recommendations
+## Insights and Recommendations
 
 <div align='center'>
 
@@ -274,7 +274,7 @@ While this test may show there is statistical significance between the poverty r
 2. **Violation Overturn Rate** - Could potentially show if these violations were upheld even after issuance.
 3. **Qualitative Data** - Could give a voice to the neighborhoods being affected by higher violation issuances.
 -----
-## Ethics & Bias
+## Ethics and Bias
 
 <div align='center'>
 
