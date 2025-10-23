@@ -7,6 +7,24 @@
 
 </div>
 
+<br>
+
+<div align='center'>
+
+# 🎊 *Nova Alpha: Top 3 Datathon Team* 🎊
+
+<img width="553" height="336" alt="datathon-win" src="https://github.com/user-attachments/assets/d58b4d0c-b1dd-47db-902c-23ed80083dc0" />
+
+<img width="553" height="414" alt="image" src="https://github.com/user-attachments/assets/2085fb35-3ff5-4c47-95d6-8b0614b91021" />
+
+### *Thankful that our team took home 2nd place at Datathon 2025! Catch us on November 5th, 2025, as we showcase our project at the Oculus World Trade Center for the [first NYC PIT Pop Up!](https://nycpitpopup.org/event/beyond-the-bus-a-spatial-and-socio-economic-analysis-of-mta-bus-violations/)*
+
+#### *Also shoutout to our sibling team, [Nova Beta](https://github.com/ayemaqu/Nova-Beta-Datathon), for taking home 4th place!*
+
+</div>
+
+<br>
+
 ## README Navigation
 
 - [Project Overview](#Project-Overview)
